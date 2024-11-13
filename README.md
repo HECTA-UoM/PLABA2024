@@ -1,4 +1,4 @@
-# PLABA2024 from Manchester (United) NLP
+# PLABA2024 from Manchester (United, MMU+UoM) NLP
 PLABA 2024 system report with shared fined models RoBERTa-Base and prompts for LLMs
 
 
