@@ -11,6 +11,16 @@ PLABA 2024 system report with shared fined models RoBERTa-Base and prompts for L
 # Task 2 - Complete Abstract Adaptation
 - Task 2 is to end-to-end adapt biomedical abstracts for the general public using plain language. Given a set of abstracts (the source), your system will provide output for each sentence of the source
 
+# Abstract
+This report is the system description of the \textsc{MaLei} team (\textbf{Manchester} and \textbf{Leiden}) for shared task Plain Language Adaptation of Biomedical Abstracts (PLABA) 2024 (we had an earlier name BeeManc following last year). 
+This report contains two sections corresponding to the two sub-tasks in PLABA-2024. 
+In task one, we applied fine-tuned ReBERTa-Base models to identify and classify the difficult terms, jargon and acronyms in the biomedical abstracts and reported the F1 score. 
+Due to time constraints, we didn't finish the replacement task. 
+In task two, we leveraged Llamma3.1-70B-Instruct and GPT-4o with the one-shot prompts to complete the abstract adaptation and reported the scores in BLEU, SARI, BERTScore, LENS, and SALSA.
+From the official Evaluation from PLABA-2024 on Task 1A and 1B, our \textbf{much smaller fine-tuned RoBERTa-Base} model ranked 3rd and 2nd respectively on the two sub-tasks, and the \textbf{1st on averaged F1 scores across the two tasks} from 9 evaluated systems. Our LLaMA-3.1-70B-instructed model achieved the \textbf{highest Completeness} score for Task-2.
+We share our source codes, fine-tuned models, and related resources at https://github.com/HECTA-UoM/PLABA2024
+
+
 # Please cite our work if you use the materiels shared here, the fine-tuning scirpt, prompts, saved models, etc.
 
 @misc{ling2024beemancplabatracktac2024,
